@@ -12,9 +12,10 @@
 .header {
     background-color: #1f2937;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 4rem;
+    padding: 0 8rem 0;
 }
 
 .header .header-logo {
@@ -70,6 +71,7 @@
     border-radius: 10px;
     padding: 10px;
     margin: 10px 0 0 0;
+    cursor: pointer;
 }
 
 .hero-section .hero-img-div img {
@@ -130,4 +132,33 @@
     font-size: 25px;
     text-align: end;
     font-weight: 700;
+}
+
+/* Call to Action Section */
+.cta-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+}
+.cta-section .cta-card {
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 3rem 6rem 3rem;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.cta-section .cta-text {
+    color: #fff;
+    line-height: 1.5;
+}
+
+.cta-section .cta-button {
+    color: #fff;
+    background-color: #3882f6;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 0.5rem 1.4rem 0.5rem;
 }
