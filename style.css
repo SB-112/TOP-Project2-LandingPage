@@ -5,6 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Roboto", "Poppins", sans-serif;
+    scroll-behavior: smooth;
 }
 
 /* Header Section Styling */
@@ -43,11 +44,11 @@
     justify-content: space-around;
     align-items: center;
     gap: 3rem;
-    padding: 5rem;
+    padding: 4rem;
 }
 
 .hero-section .hero-text-div {
-    padding: 2rem;
+    padding: 4rem;
 }
 
 .hero-section .hero-text-div .hero-header {
@@ -68,9 +69,65 @@
     border: none;
     border-radius: 10px;
     padding: 10px;
+    margin: 10px 0 0 0;
 }
 
 .hero-section .hero-img-div img {
     width: 520px;
     height: auto;
+}
+
+/* Info Section */
+.info-section .info-heading {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 500;
+    text-align: center;
+    margin: 4rem;
+}
+
+.info-section .item-cards img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    border: 5px solid #3882f6;
+}
+
+.info-section .item-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.info-section .card {
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+/* Quote Section */
+.quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 5rem;
+}
+
+.quote-section .quote-div {
+    width: 60rem;
+}
+
+.quote-section .quote-text {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 200;
+}
+
+.quote-section .quote-owner {
+    font-size: 25px;
+    text-align: end;
+    font-weight: 700;
 }
